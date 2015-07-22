@@ -49,6 +49,7 @@ class MySQLStorePipeline(object):
             db=settings['MYSQL_DBNAME'],
             user=settings['MYSQL_USER'],
             passwd=settings['MYSQL_PASSWD'],
+            port=int(settings['MYSQL_PORT']),
             charset='utf8',
             use_unicode=True,
         )
