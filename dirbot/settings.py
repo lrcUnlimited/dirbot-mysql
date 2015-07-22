@@ -14,3 +14,4 @@ MYSQL_HOST = 'localhost'
 MYSQL_DBNAME = 'dirbot'
 MYSQL_USER = 'dirbot'
 MYSQL_PASSWD = ''
+MYSQL_PORT=3306
